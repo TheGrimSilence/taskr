@@ -1,0 +1,11 @@
+{
+  "name": "taskr",
+  "packageManager": "yarn@3.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
