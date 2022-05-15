@@ -1,6 +1,6 @@
 {
   "name": "taskr",
-  "packageManager": "yarn@3.0.0",
+  "packageManager": "yarn@3.2.1",
   "private": true,
   "workspaces": [
     "packages/*"
