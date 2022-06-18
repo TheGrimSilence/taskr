@@ -337,6 +337,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
+        ["npm:16.11.41", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-16.11.41-e10b7bd53b-808e4d6575.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:16.11.41"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:16.4.13", {
           "packageLocation": "./.yarn/cache/@types-node-npm-16.4.13-3f9c176458-071e86a1d1.zip/node_modules/@types/node/",
           "packageDependencies": [
@@ -1297,7 +1304,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["core-js-pure", [
         ["npm:3.16.1", {
-          "packageLocation": "./.yarn/cache/core-js-pure-npm-3.16.1-088e28f081-efdec39af1.zip/node_modules/core-js-pure/",
+          "packageLocation": "./.yarn/unplugged/core-js-pure-npm-3.16.1-088e28f081/node_modules/core-js-pure/",
           "packageDependencies": [
             ["core-js-pure", "npm:3.16.1"]
           ],
@@ -2356,7 +2363,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/frontend/",
           "packageDependencies": [
             ["frontend", "workspace:packages/frontend"],
-            ["@types/node", "npm:16.4.13"],
+            ["@types/node", "npm:16.11.41"],
             ["@types/react", "npm:17.0.17"],
             ["axios", "npm:0.21.1"],
             ["eslint", "npm:7.32.0"],
