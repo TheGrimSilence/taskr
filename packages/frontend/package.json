@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "16.4.13",
+    "@types/node": "16.11.41",
     "axios": "0.21.1",
     "next": "11.0.1",
     "react": "17.0.2",

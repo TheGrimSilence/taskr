@@ -239,10 +239,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:16.4.13":
+"@types/node@npm:*":
   version: 16.4.13
   resolution: "@types/node@npm:16.4.13"
   checksum: 071e86a1d196cf72928a7109e99769dffed93db481032b9ca2f52e6f3ced432e2a179849c85e587e67409202e1ed37bffd0c7a31d38adf35a385d327dfe8bd72
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:16.11.41":
+  version: 16.11.41
+  resolution: "@types/node@npm:16.11.41"
+  checksum: 808e4d65757bb13cf25e88dfa4e65880efef06652b04baecb051eb90cf090dda9812aa3505b31e963a48041eed7dbe0fc59c44c7c5e117da952ff951bf3a584a
   languageName: node
   linkType: hard
 
@@ -1899,7 +1906,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "frontend@workspace:packages/frontend"
   dependencies:
-    "@types/node": 16.4.13
+    "@types/node": 16.11.41
     "@types/react": 17.0.17
     axios: 0.21.1
     eslint: 7.32.0
